@@ -1,0 +1,98 @@
+
+                #a55e46
+
+body {
+    background-color: black;
+    font-family: 'Bebas Neue', cursive;
+  }
+
+  .mag {
+    position: absolute;
+    border: 3px solid #000;
+    border-radius: 50%;
+    cursor: none;
+    width: 100px;
+    height: 100px;
+  }
+
+  .container-fluid {
+    background-color: black;
+    padding: 0vh;
+  }
+
+  .navbar-brand {
+      color: white;
+      font-size: 7vh;
+      padding: 0.5vh;
+  }
+
+  .navbar-brand:hover {
+    color: #32D0E4;
+    border-bottom: 0.2vh solid #E44632;
+    transition: 0.2s;
+    padding-bottom: 2vh;
+  }
+
+  .nav-link {
+      color: white;
+      font-size: 7vh;
+      padding: 0.5vh;
+  }
+
+  .nav-link:hover {
+    color: #32D0E4;
+    border-bottom: 0.2vh solid #E44632;
+    transition: 0.2s;
+    padding-bottom: 2vh;
+  }
+
+  .card {
+    position: relative;
+    text-decoration: none;
+  }
+
+  .card:hover {
+    transform: scale(1.1);
+    transition: all 1s ease;
+    color: #E44632;
+    border-bottom: 0.2vh solid #32D0E4;
+}
+
+  .d-flex {
+    margin-right: 6vh;
+  }
+
+  #cbBlack {
+    background-color: black;
+    color: #32D0E4;
+    border-bottom: #E44632;
+  }
+
+  #srcColor:hover {
+    background-color: #32D0E4;
+    color: #E44632;
+    border: 0.2vh solid #E44632;
+    transition: 0.2s;
+  }
+  
+* {box-sizing: border-box;}
+
+.img-magnifier-container {
+  position: relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
+}
+
+.accordian {
+  background-color: #32D0E4;
+  color: #E44632;
+  border: 0.2vh solid #E44632;
+}
